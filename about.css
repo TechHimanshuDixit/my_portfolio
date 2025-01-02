@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.nav-button {
+  text-decoration: none;
+  color: #red;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 15px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-button i {
+  font-size: 18px;
+}
+
+.nav-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+  gap: 20px; /* Add space between sections */
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  background: white; /* background */
+  color: #12192c; /* Dark text color for contrast */
+  text-align: center;
+  border-radius: 24px; /* Rounded corners */
+  box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39); /* Shadow effect */
+}
+
+.about-left {
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 24px;
+  color: #fff;
+  box-shadow: 8px 17px 18px -1px rgba(5, 3, 0, 0.39);
+}
+
+.about-img {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.about-left-content > div {
+  background: #12192c;
+  padding: 2.5rem 5rem 2.5rem 5rem;
+  text-align: center;
+  border-radius: 24px;
+}
+
+.about-img img {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
+.about-img {
+  width : 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.about-left h2 {
+  font-size: 2rem;
+  margin: 1rem 0 0.5rem;
+  text-align: center;
+  line-height: 1.2;
+  border-bottom: 2px solid #b721ff;
+  padding-bottom: 0.5rem;
+}
+
+.about-left h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 5px;
+  margin-top: 0.5rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  gap: 10px;
+}
+
+.icons li {
+  list-style-type: none;
+  background: #b721ff;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.icons li:hover {
+  background: #edffec;
+  color: #000;
+}
+
+.about-right {
+  background: #12192c;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 24px;
+  box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.about-right h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.about-right h1 span {
+  color: #b721ff;
+}
+
+.about-right h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.about-btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 0.55rem 1rem;
+  font-weight: 600;
+  background: transparent;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn.btn-white:hover {
+  background: #b721ff;
+  color: #fff;
+  border-color: #b721ff;
+}
+
+.about-para {
+  text-align: left;
+  margin-top: 20px;
+  background: #12192c;
+  padding: 20px;
+  border-radius: 12px;
+  color: #fff;
+  box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+}
+
+.about-para p {
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .about-wrapper {
+    padding: 40px;
+  }
+}
