@@ -48,7 +48,7 @@ my\_portfolio/
 
 ## 📸 Screenshots
 
-> ![Homepage Screenshot](image.jpg)
+> ![Homepage Screenshot]()
 
 ---
 
