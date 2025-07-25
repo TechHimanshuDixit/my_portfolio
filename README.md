@@ -48,7 +48,10 @@ my\_portfolio/
 
 ## 📸 Screenshots
 
-> ![Homepage Screenshot]()
+> ![Homepage Screenshot](ss1.jpg)
+> ![Homepage Screenshot](ss2.jpg)
+> ![Homepage Screenshot](ss3.jpg)
+> ![Homepage Screenshot](ss4.jpg)
 
 ---
 
